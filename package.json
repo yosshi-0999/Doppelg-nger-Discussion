@@ -1,0 +1,21 @@
+{
+  "name": "doppelg-nger-discussion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosshi-0999/Doppelg-nger-Discussion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yosshi-0999/Doppelg-nger-Discussion/issues"
+  },
+  "homepage": "https://github.com/yosshi-0999/Doppelg-nger-Discussion#readme"
+}
