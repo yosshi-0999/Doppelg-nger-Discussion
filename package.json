@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/yosshi-0999/Doppelg-nger-Discussion/issues"
   },
-  "homepage": "https://github.com/yosshi-0999/Doppelg-nger-Discussion#readme"
+  "homepage": "https://github.com/yosshi-0999/Doppelg-nger-Discussion#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
 }
