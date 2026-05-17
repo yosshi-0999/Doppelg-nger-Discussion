@@ -1,0 +1,4 @@
+その後、VS Codeのターミナル（`Ctrl + J`）で以下のコマンドを実行してインストールします。
+
+```bash
+pip install -r requirements.txt
