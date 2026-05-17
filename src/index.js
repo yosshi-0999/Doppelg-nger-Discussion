@@ -6,7 +6,6 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 async function run() {
-  // モデル (AIの種類) の選択
   const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const prompt = "こんにちは!自己紹介を1行でお願いします。";
@@ -20,6 +19,7 @@ async function run() {
     console.log("-------------------");
     console.log("AIからの返答:", text);
     console.log("-------------------");
+    console.log("使ったトークン数:", response.usageMetadata);
   } catch (error) {
     console.error("エラーが発生しました:", error);
   }
